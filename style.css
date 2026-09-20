@@ -384,3 +384,72 @@ footer {
     }
 
 }
+/* =========================
+   ECONOMY PAGE
+========================= */
+
+.economy-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+.economy-section-header {
+    margin-bottom: 45px;
+}
+
+.economy-section-header h2 {
+    margin-bottom: 0;
+}
+
+.economy-empty {
+    padding: 70px 30px;
+    text-align: center;
+
+    background: #111820;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 8px;
+
+    transition: .3s;
+}
+
+.economy-empty:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(255,255,255,.15);
+}
+
+.economy-empty h3 {
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+.economy-empty p {
+    max-width: 600px;
+
+    margin: auto;
+
+    font-size: 14px;
+
+    opacity: .55;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .economy-section {
+        padding: 80px 20px;
+    }
+
+    .economy-empty {
+        padding: 55px 20px;
+    }
+
+}
