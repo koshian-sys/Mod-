@@ -522,3 +522,77 @@ footer {
     }
 
 }
+/* =========================
+   JOIN PAGE
+========================= */
+
+.join-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+.join-section-header {
+    margin-bottom: 45px;
+}
+
+.join-section-header h2 {
+    margin-bottom: 0;
+}
+
+.join-empty {
+    padding: 70px 30px;
+    text-align: center;
+
+    background: #111820;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 8px;
+
+    transition: .3s;
+}
+
+.join-empty:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(255,255,255,.15);
+}
+
+.join-empty h3 {
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+.join-empty p {
+    max-width: 600px;
+
+    margin: 0 auto 30px;
+
+    font-size: 14px;
+
+    opacity: .55;
+}
+
+.join-placeholder {
+    opacity: .6;
+    cursor: default;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .join-section {
+        padding: 80px 20px;
+    }
+
+    .join-empty {
+        padding: 55px 20px;
+    }
+
+}
