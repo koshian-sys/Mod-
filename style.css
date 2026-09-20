@@ -453,3 +453,72 @@ footer {
     }
 
 }
+/* =========================
+   WORLD PAGE
+========================= */
+
+.world-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+.world-section-header {
+    margin-bottom: 45px;
+}
+
+.world-section-header h2 {
+    margin-bottom: 0;
+}
+
+.world-empty {
+    padding: 70px 30px;
+    text-align: center;
+
+    background: #111820;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 8px;
+
+    transition: .3s;
+}
+
+.world-empty:hover {
+    transform: translateY(-5px);
+
+    border-color: rgba(255,255,255,.15);
+}
+
+.world-empty h3 {
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+.world-empty p {
+    max-width: 600px;
+
+    margin: auto;
+
+    font-size: 14px;
+
+    opacity: .55;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .world-section {
+        padding: 80px 20px;
+    }
+
+    .world-empty {
+        padding: 55px 20px;
+    }
+
+}
