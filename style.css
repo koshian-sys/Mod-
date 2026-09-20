@@ -311,3 +311,76 @@ footer {
 .section strong {
     color: #fff;
 }
+/* =========================
+   RAILWAY PAGE
+========================= */
+
+.railway-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+.railway-section-header {
+    margin-bottom: 45px;
+}
+
+.railway-section-header h2 {
+    margin-bottom: 0;
+}
+
+
+/* Empty Section */
+
+.railway-empty {
+    padding: 70px 30px;
+
+    text-align: center;
+
+    background: #111820;
+
+    border: 1px solid rgba(255,255,255,.08);
+
+    border-radius: 8px;
+
+    transition: .3s;
+}
+
+.railway-empty:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255,255,255,.15);
+}
+
+.railway-empty-icon {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.railway-empty h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.railway-empty p {
+    max-width: 600px;
+    margin: auto;
+
+    font-size: 14px;
+
+    opacity: .55;
+}
+
+
+/* Railway Page Mobile */
+
+@media (max-width: 700px) {
+
+    .railway-section {
+        padding: 80px 20px;
+    }
+
+    .railway-empty {
+        padding: 55px 20px;
+    }
+
+}
