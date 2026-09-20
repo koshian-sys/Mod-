@@ -274,3 +274,40 @@ footer {
     }
 
 }
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.page-hero {
+    min-height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 20px 80px;
+
+    background:
+        linear-gradient(
+            rgba(5,10,15,.7),
+            rgba(5,10,15,.95)
+        ),
+        url("images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.page-hero h1 {
+    font-size: clamp(45px, 7vw, 80px);
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.page-hero p:not(.section-label) {
+    font-size: 18px;
+    opacity: .7;
+}
+
+.section strong {
+    color: #fff;
+}
