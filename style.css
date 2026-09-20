@@ -279,12 +279,12 @@ footer {
 ========================= */
 
 .page-hero {
-    min-height: 55vh;
+    min-height: 65vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 120px 20px 80px;
+    padding: 160px 20px 100px;
 
     background:
         linear-gradient(
