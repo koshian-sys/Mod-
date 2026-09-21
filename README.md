@@ -1,34 +1,36 @@
-\# ABOUT SUISAKA SERVER
+# ABOUT SUISAKA SERVER
 マインクラフトJava版のModを使用したサバイバル経済サーバー。
 
 鉄道、道路、都市、経済など、 自分たちの手で世界を発展させていくことが可能です。
 
 
-# FEATURES
-鉄道｜RAILWAY
+## FEATURES
+### 鉄道｜RAILWAY
 
 MTR Modをを使用した本格的な鉄道網。 駅や路線を自由に発展させられます。
 
 
-車｜VEHICLE
+### 車｜VEHICLE
 
 車などの乗り物を使って、 広大な世界を自由に移動できます。
 
 
-経済｜ECONOMY
+### 経済｜ECONOMY
 
 サーバー内の経済システムを利用して 自分だけ、友達との生活を送ることができます。
 
 
-# JOIN US
+## JOIN US
 
 
-さあ、自分の手で世界を作り上げよう。
+### さあ、自分の手で世界を作り上げよう。
 Minecraftをもっと楽しみたい方へ。
 
 
 Discordサーバーへ参加
-Discordサーバーへの参加リンクは、 今後掲載する予定です。
+
+
+(Discordサーバーへの参加リンクは、 今後掲載する予定です。)
 
 
 
