@@ -369,7 +369,91 @@ footer {
 
     opacity: .55;
 }
+/* =========================
+   RAILWAY CARDS
+========================= */
 
+.railway-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.railway-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 120px;
+    padding: 25px 35px;
+
+    background: #111820;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 8px;
+
+    color: #fff;
+    text-decoration: none;
+
+    transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
+}
+
+.railway-card:hover {
+    transform: translateX(6px);
+    border-color: rgba(139, 92, 246, .5);
+
+    box-shadow:
+        0 0 15px rgba(59, 130, 246, .15),
+        0 0 30px rgba(139, 92, 246, .1);
+}
+
+.railway-card-icon {
+    width: 70px;
+    flex-shrink: 0;
+    font-size: 42px;
+    text-align: center;
+}
+
+.railway-card-content {
+    margin-left: 25px;
+}
+
+.railway-card h3 {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.railway-card p {
+    font-size: 14px;
+    opacity: .55;
+}
+
+@media (max-width: 700px) {
+
+    .railway-card {
+        min-height: 100px;
+        padding: 20px;
+    }
+
+    .railway-card-icon {
+        width: 50px;
+        font-size: 32px;
+    }
+
+    .railway-card-content {
+        margin-left: 15px;
+    }
+
+    .railway-card h3 {
+        font-size: 20px;
+    }
+
+    .railway-card p {
+        font-size: 13px;
+    }
+
+}
 
 /* Railway Page Mobile */
 
