@@ -134,8 +134,13 @@
         <p>© 2026 SUISAKA OFFICIAL</p>
 
     </footer>
+<script>
+    const menuButton = document.getElementById("menuButton");
+    const navMenu = document.getElementById("navMenu");
 
-    <script src="script.js"></script>
-
+    menuButton.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+</script>
 </body>
 </html>
