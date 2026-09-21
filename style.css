@@ -666,8 +666,16 @@ footer {
 
     nav a {
         position: relative;
+        transition: color 0.3s ease;
     }
 
+    /* 選択中の文字 */
+    nav a.active {
+        color: #ffffff;
+        text-shadow: 0 0 8px rgba(139, 92, 246, 0.5);
+    }
+
+    /* 下の青〜紫グラデーション */
     nav a.active::after {
         content: "";
 
@@ -685,6 +693,10 @@ footer {
         );
 
         border-radius: 10px;
+
+        box-shadow:
+            0 0 6px rgba(59, 130, 246, 0.5),
+            0 0 10px rgba(139, 92, 246, 0.4);
     }
 
 }
