@@ -119,26 +119,37 @@ nav a:hover {
 
 .button {
     display: inline-block;
+    padding: 14px 30px;
 
-    padding: 14px 35px;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
 
-    background: white;
-    color: #0b0f14;
-
+    color: #fff;
     text-decoration: none;
-
     font-weight: bold;
 
-    border-radius: 5px;
+    border-radius: 8px;
 
-    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    box-shadow:
+        0 0 0 rgba(59, 130, 246, 0);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        filter 0.3s ease;
 }
 
 .button:hover {
     transform: translateY(-3px);
-    opacity: 0.85;
-}
 
+    filter: brightness(1.1);
+
+    box-shadow:
+        0 0 10px rgba(59, 130, 246, 0.7),
+        0 0 25px rgba(99, 102, 241, 0.6),
+        0 0 45px rgba(139, 92, 246, 0.45);
+}
 
 /* SECTION */
 
