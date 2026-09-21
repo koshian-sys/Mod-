@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>鉄道会社一覧・水阪鯖</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">水阪鯖｜鉄道会社一覧</div>
+
+    <button class="menu-button" id="menuButton">☰</button>
+
+    <nav id="navMenu">
+        <a href="index.html">ホーム</a>
+        <a href="about.html">サーバーの特徴</a>
+        <a href="railway.html" class="active">鉄道</a>
+        <a href="economy.html">経済</a>
+        <a href="world.html">ワールド</a>
+        <a href="join.html">参加方法</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- PAGE HERO -->
+
+    <section class="page-hero">
+
+        <div>
+
+            <p class="subtitle">RAILWAY COMPANIES</p>
+
+            <h1>鉄道会社一覧</h1>
+
+            <p>水阪鯖の鉄道会社を紹介します。</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMPANY LIST -->
+
+    <section class="railway-section">
+
+        <div class="railway-section-header">
+
+            <p class="section-label">COMPANY LIST</p>
+
+            <h2>鉄道会社一覧</h2>
+
+        </div>
+
+        <div class="railway-empty">
+
+            <div class="railway-empty-icon">🏢</div>
+
+            <h3>鉄道会社情報はまだありません</h3>
+
+            <p>
+                今後、鉄道会社が追加された際にここへ掲載します。
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- RETURN -->
+
+    <section class="join">
+
+        <p class="section-label">RAILWAY</p>
+
+        <h2>鉄道情報を見る</h2>
+
+        <p>
+            駅や路線などの情報を見ることができます。
+        </p>
+
+        <a href="railway.html" class="button">
+            鉄道ページへ戻る
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>© 2026 SUISAKA OFFICIAL</p>
+
+</footer>
+
+
+<script>
+
+    const menuButton = document.getElementById("menuButton");
+    const navMenu = document.getElementById("navMenu");
+
+    menuButton.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+
+</script>
+
+</body>
+
+</html>
