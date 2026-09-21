@@ -376,31 +376,31 @@ footer {
 .railway-cards {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .railway-card {
     display: flex;
     align-items: center;
+
     width: 100%;
-    min-height: 120px;
-    padding: 25px 35px;
+    min-height: 150px;
+
+    padding: 30px 45px;
 
     background: #111820;
     border: 1px solid rgba(255,255,255,.08);
-    border-radius: 8px;
+    border-radius: 10px;
 
     color: #fff;
     text-decoration: none;
 
-    transition:
-        transform .3s ease,
-        border-color .3s ease,
-        box-shadow .3s ease;
+    transition: .3s;
 }
 
 .railway-card:hover {
-    transform: translateX(6px);
+    transform: translateX(8px);
+
     border-color: rgba(139, 92, 246, .5);
 
     box-shadow:
@@ -409,48 +409,33 @@ footer {
 }
 
 .railway-card-icon {
-    width: 70px;
-    flex-shrink: 0;
-    font-size: 42px;
-    text-align: center;
-}
-
-.railway-card-content {
-    margin-left: 25px;
+    font-size: 50px;
+    margin-right: 30px;
 }
 
 .railway-card h3 {
-    font-size: 23px;
-    margin-bottom: 5px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
 }
 
-.railway-card p {
-    font-size: 14px;
-    opacity: .55;
-}
+
+/* スマートフォン */
 
 @media (max-width: 700px) {
 
     .railway-card {
-        min-height: 100px;
-        padding: 20px;
+        min-height: 120px;
+        padding: 25px 25px;
     }
 
     .railway-card-icon {
-        width: 50px;
-        font-size: 32px;
-    }
-
-    .railway-card-content {
-        margin-left: 15px;
+        font-size: 38px;
+        margin-right: 20px;
     }
 
     .railway-card h3 {
-        font-size: 20px;
-    }
-
-    .railway-card p {
-        font-size: 13px;
+        font-size: 24px;
     }
 
 }
