@@ -829,9 +829,17 @@ footer {
     border-radius: 4px;
     opacity: .7;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo span {
     display: inline-block;
-    animation: logoSlide 0.6s ease-out;
+    opacity: 0;
+    transform: translateX(-20px);
+
+    animation: logoSlide 0.6s ease-out forwards;
 }
 
 @keyframes logoSlide {
