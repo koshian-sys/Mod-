@@ -718,3 +718,34 @@ footer {
     }
 
 }
+/* =========================
+   JOIN TEXT
+========================= */
+
+.join-text {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 14px;
+    opacity: .65;
+}
+
+.join-list {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.join-list p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    opacity: .75;
+}
+
+.join-list .note {
+    margin-top: 20px;
+    padding: 12px 15px;
+    background: rgba(139, 92, 246, 0.08);
+    border-left: 3px solid #8b5cf6;
+    border-radius: 4px;
+    opacity: .7;
+}
