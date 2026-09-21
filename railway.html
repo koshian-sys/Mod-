@@ -10,11 +10,14 @@
 <body>
 
 <header class="header">
+
     <div class="logo">水阪鯖｜鉄道</div>
+
     <button class="menu-button" id="menuButton">
         ☰
     </button>
-    <nav>
+
+    <nav id="navMenu">
         <a href="index.html">ホーム</a>
         <a href="about.html">サーバーについて</a>
         <a href="railway.html">鉄道</a>
@@ -22,6 +25,7 @@
         <a href="world.html">ワールド</a>
         <a href="join.html">参加方法</a>
     </nav>
+
 </header>
 
 
@@ -186,6 +190,13 @@
 <footer>
     <p>© 2026 SUISAKA OFFICIAL</p>
 </footer>
-<script src="script.js"></script>
+<script>
+    const menuButton = document.getElementById("menuButton");
+    const navMenu = document.getElementById("navMenu");
+
+    menuButton.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+</script>
 </body>
 </html>
