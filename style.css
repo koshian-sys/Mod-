@@ -582,34 +582,16 @@ footer {
 
 
 /* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 700px) {
-
-    .join-section {
-        padding: 80px 20px;
-    }
-
-    .join-empty {
-        padding: 55px 20px;
-    }
-
-}
-/* =========================
    MOBILE MENU
 ========================= */
 
 .menu-button {
     display: none;
-
     background: none;
     border: none;
     color: #fff;
-
     font-size: 30px;
     cursor: pointer;
-
     padding: 5px;
 }
 
@@ -631,14 +613,13 @@ footer {
 
     .menu-button {
         display: block;
-        z-index: 102;
+        z-index: 200;
     }
 
-    nav {
+    #navMenu {
         display: none;
 
         position: absolute;
-
         top: 65px;
         left: 0;
 
@@ -647,20 +628,21 @@ footer {
         flex-direction: column;
         gap: 0;
 
-        background: rgba(11, 15, 20, .97);
+        background: rgba(11, 15, 20, 0.97);
 
         border-bottom: 1px solid rgba(255,255,255,.1);
 
         backdrop-filter: blur(10px);
+
+        z-index: 150;
     }
 
-    nav.active {
-        display: flex;
+    #navMenu.active {
+        display: flex !important;
     }
 
-    nav a {
+    #navMenu a {
         display: block;
-
         width: 100%;
 
         padding: 18px 25px;
@@ -670,7 +652,7 @@ footer {
         font-size: 14px;
     }
 
-    nav a:hover {
+    #navMenu a:hover {
         background: rgba(255,255,255,.05);
         opacity: 1;
     }
