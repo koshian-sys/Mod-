@@ -829,20 +829,24 @@ footer {
     border-radius: 4px;
     opacity: .7;
 }
+
 .logo {
     display: flex;
     align-items: center;
 }
 
-.logo span {
+.logo-main {
+    display: inline-block;
+}
+
+.logo-page {
     display: inline-block;
     opacity: 0;
     transform: translateX(-20px);
-
-    animation: logoSlide 0.6s ease-out forwards;
+    animation: logoPageSlide 0.6s ease-out forwards;
 }
 
-@keyframes logoSlide {
+@keyframes logoPageSlide {
     from {
         opacity: 0;
         transform: translateX(-20px);
