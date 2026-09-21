@@ -596,3 +596,83 @@ footer {
     }
 
 }
+/* =========================
+   MOBILE MENU
+========================= */
+
+.menu-button {
+    display: none;
+
+    background: none;
+    border: none;
+    color: #fff;
+
+    font-size: 30px;
+    cursor: pointer;
+
+    padding: 5px;
+}
+
+
+/* =========================
+   SMARTPHONE
+========================= */
+
+@media (max-width: 700px) {
+
+    .header {
+        height: 65px;
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .menu-button {
+        display: block;
+        z-index: 102;
+    }
+
+    nav {
+        display: none;
+
+        position: absolute;
+
+        top: 65px;
+        left: 0;
+
+        width: 100%;
+
+        flex-direction: column;
+        gap: 0;
+
+        background: rgba(11, 15, 20, .97);
+
+        border-bottom: 1px solid rgba(255,255,255,.1);
+
+        backdrop-filter: blur(10px);
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+
+        width: 100%;
+
+        padding: 18px 25px;
+
+        border-bottom: 1px solid rgba(255,255,255,.06);
+
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        background: rgba(255,255,255,.05);
+        opacity: 1;
+    }
+
+}
